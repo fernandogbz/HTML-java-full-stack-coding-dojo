@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Esta es una sección extra</h1>
+    <a href="./../index.html">De vuelta al indice</a>
+    <br>
+    <br>
+
+    <form> <!-- Formulario-->
+        <div> <!--Div divide la web en secciones-->
+            <label for="nombre">Nombre: </label> <!--Lo que se quiere que escriba el usuario-->
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre"> <!--input que el usuario pueda agregar la infomación solicitada-->
+        </div>
+        <div>
+            <label for="contraseña">Contraseña: </label>
+            <input type="password" name="contraseña" id="contraseña">
+        </div>
+        <div>
+            <label for="fecha">Fecha: </label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <div>
+            <h3>Sexo</h3>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" id="masculino">
+
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="sexo" id="femenino">
+
+            <label for="otro">Otro</label>
+            <input type="radio" name="sexo" id="otro">
+        </div>
+        <div>
+            <h3>Lenguages de Programación</h3>
+            <div>
+                <label for="java">Java</label>
+                <input type="checkbox" id="java" name="lenguages">
+            </div>
+            
+            <div>
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" id="javascript" name="lenguages">
+            </div>
+            
+            <div>
+                <label for="python">Python</label>
+                <input type="checkbox" id="python" name="lenguages">
+            </div>
+        </div>
+        <div>
+            <label for="pais">País de residencia:</label>
+            <select name="pais" id="pais">
+                <option value="CL">Chile</option>
+                <option value="MX">México</option>
+                <option value="US">Estados Unidos</option>
+                <option value="VE">Venezuela</option>
+                <option value="CO">Colombia</option>
+                <option value="AR">Argentina</option>
+            </select>
+        </div>
+        <div>
+            <label for="comentario"></label>
+            <textarea name="comentario" maxlength="10" id="comentario" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit">
+            <button>Cancelar</button>
+        </div>
+    </form>
+</body>
+</html>
